@@ -675,7 +675,7 @@ This is the main code
         this.next = function() {carousel.next();}
         this.previous = function() {carousel.previous();}
         this.reload = function() {carousel.reload();}
-
+        this.destroy = function () {carousel.destroy();}
         this.gotoSlide = function(i) {carousel.gotoSlide(i);}
         this.addSlide = function(i) {carousel.addSlide(i);}
         this.removeSlide = function(i) {carousel.removeSlide(i);}
